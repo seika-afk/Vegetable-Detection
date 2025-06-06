@@ -1,3 +1,17 @@
+# Vegetable Image Classification with CNN
+
+## Project Overview
+This repository contains a deep learning project for classifying vegetable images using a Convolutional Neural Network (CNN) built with TensorFlow/Keras. The model is trained on the [Vegetable Image Dataset](https://www.kaggle.com/datasets/misrakahmed/vegetable-image-dataset) from Kaggle.
+
+## Dataset Details
+- **15 vegetable classes**: Bean, Bitter_Gourd, Bottle_Gourd, Brinjal, Broccoli, Cabbage, Capsicum, Carrot, Cauliflower, Cucumber, Papaya, Potato, Pumpkin, Radish, Tomato
+- **Image size**: 256x256 pixels
+- **Samples**:
+  - Training: 15,000 images
+  - Validation: 3,000 images
+  - Test: 3,000 images
+ 
+# ACCURACY :
 - Training accuracy: ~91%
 - Validation accuracy: ~95% 
 - Test accuracy: ~95.5%
@@ -29,20 +43,12 @@ To run this notebook, you'll need:
 ## File Structure
 
 - `vegetable_detection.ipynb`: Main Jupyter notebook with all code
-- `model_checkpoint.h5`: Saved model weights
-- `my_model.keras`: Saved full model
+
 
 ## Results
 
 The model shows excellent performance on vegetable classification, achieving 95%+ accuracy on both validation and test sets. Training curves show good convergence without overfitting.
 
-## Future Improvements
 
-- Experiment with different architectures
-- Try transfer learning with pretrained models
-- Add data augmentation
-- Deploy as a web application
 
-## License
 
-This project uses the [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) license, same as the original dataset.
